@@ -232,10 +232,11 @@ footer a:visited {
   text-decoration: none;
   border: 0;
   color: #888;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 
 footer a:hover,
 footer a:active {
-  color: #ddd;
+  color: #e74c3c;
 }
