@@ -224,4 +224,18 @@ header {
 footer {
   background-color: #333;
   padding: 50px;
+  text-align: center;
+}
+
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+}
+
+footer a:hover,
+footer a:active {
+  color: #ddd;
 }
